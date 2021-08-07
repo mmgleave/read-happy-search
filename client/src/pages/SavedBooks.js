@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Jumbotron, Container, CardColumns, Card, Button } from 'react-bootstrap';
 
 import { GET_ME } from '../utils/queries';
@@ -9,7 +9,6 @@ import { removeBookId } from '../utils/localStorage';
 import { useQuery, useMutation } from '@apollo/client';
 
 const SavedBooks = () => {
-  const [userData, setUserData] = useState({});
 
   // changed to "data: userData" for testing ***
   const { data: userData } = useQuery(GET_ME);
