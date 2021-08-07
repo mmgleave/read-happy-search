@@ -10,9 +10,10 @@ import { useQuery, useMutation } from '@apollo/client';
 
 const SavedBooks = () => {
 
-  // changed to "data: userData" for testing ***
-  const { data: userData } = useQuery(GET_ME);
   const [removeBook] = useMutation(REMOVE_BOOK);
+  const { loading, data } = useQuery(GET_ME);
+
+  const userData = data?.me || {};
 
   // use this to determine if `useEffect()` hook needs to run again
   const userDataLength = Object.keys(userData).length;
