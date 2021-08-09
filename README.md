@@ -9,8 +9,7 @@ An application which allows the user to search books using the google books API 
 * [Questions](#questions)
 
 ## Usage
-- _[Visit Website]()_
-
+- _[Visit Website](https://read-happy-search.herokuapp.com)_
 - _[View Project on GitHub](http://github.com/mmgleave/read-happy-search)_
 
 ## Screenshots
