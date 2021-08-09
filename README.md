@@ -5,13 +5,16 @@ An application which allows the user to search books using the google books API 
 
 ## Table of Contents
 * [Usage](#usage)
+* [Screenshots](#screenshots)
 * [Questions](#questions)
 
 ## Usage
+- _[Visit Website]()_
 
+- _[View Project on GitHub](http://github.com/mmgleave/read-happy-search)_
 
 ## Screenshots
-![Screenshot](assets/potential-enigma-screenshot.jpg)
+![Screenshot]()
 
 ## Questions
 For questions, you can reach me on GitHub at http://github.com/mmgleave/ or via email at mmgleave@gmail.com.
